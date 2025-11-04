@@ -52,7 +52,7 @@ jobs:
 
       - name: Run scraper (headless)
         env:
-          FECHA_BASE: '4/11/2025'
+          FECHA_BASE: '20/05/2025'
           DOWNLOAD_DIR: ${{ github.workspace }}/downloads
           
         run: |
